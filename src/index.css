@@ -11,3 +11,135 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main_div{
+  width: 100%;
+  height: 100vh;
+  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.center_div{
+  margin: auto;
+  width: 20%;
+  
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  text-align: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px 8px rgb(210, 204, 210);
+  height: 500px;
+}
+.heading{
+  text-align: center;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+li{
+  margin-left: 10px;
+  text-align: center;
+}
+/* #list1 .form-control {
+  border-color: transparent;
+}
+#list1 .form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+#list1 .select-input.form-control[readonly]:not([disabled]) {
+  background-color: #fbfbfb;
+} */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+
+  font-size: 18px;
+  transition: 0.2s;
+  margin: 10px;
+  width: 230px;
+ 
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  border-bottom:2px solid purple;
+
+}
+.btn:hover{
+  background-color: green;
+}
+.Tododstyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+}
+.addbtn{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+ 
+  
+}
+
+.addbtn:hover{
+
+
+ font-weight: bold;
+}
+
+.fa-trash{
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bold;
+  color:rgb(191, 98, 231);
+
+}
+
+.fa-trash:hover{
+  color: red;
+  cursor: pointer;
+}
+.deleteicon:hover{
+  color: red;
+  cursor: pointer;
+}
